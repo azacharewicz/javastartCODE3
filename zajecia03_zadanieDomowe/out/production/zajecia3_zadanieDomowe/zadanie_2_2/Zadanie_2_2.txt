@@ -1,0 +1,13 @@
+﻿Zadanie 2.2 
+
+W każdej z klas reprezentujących kształt z poprzedniego zadania 
+dodaj metodę zwracającą pole lub obwód danego obiektu. 
+Zastanów się jak wykorzystać do tego klasę ShapeCalculator z poprzedniego zadania. 
+ 
+
+Przykładowe zastosowanie: 
+ 
+Rectangle rect = new Rectangle(5, 10); 
+double rectArea = rect.calculateArea(); 
+System.out.print(rectArea); //wyświetla 50 
+ 

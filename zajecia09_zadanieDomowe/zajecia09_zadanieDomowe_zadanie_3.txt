@@ -1,0 +1,12 @@
+3. Uzupe³nij poni¿sze zdania 
+ 
+a) Wyj¹tki dzielimy na [obs³ugiwane/kontrolowane] które trzeba obs³u¿yæ i [nieobs³ugiwane/niekontrolowane] które mo¿na, ale nie trzeba obs³u¿yæ. 
+
+b) Wyj¹tki [nieobs³ugiwane/niekontrolowane] dziedzicz¹ po klasie RuntimeException
+
+c) Wyj¹tki rzucamy korzystaj¹c z instrukcji [throw], jeœli rzucamy wyj¹tek kontrolowany musimy 
+dodatkowo w sygnaturze metody/konstruktora zadeklarowaæ wyj¹tek u¿ywaj¹c s³owa [throws] 
+
+d) Do bloku try-catch mo¿emy dodaæ dodatkowo blok [finally], który wykona siê zawsze, 
+niezale¿nie, czy w bloku try wyj¹tek wyst¹pi³, czy nie 
+ 

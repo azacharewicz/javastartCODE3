@@ -1,0 +1,16 @@
+Zadanie 3
+
+Pod adresem https://github.com/javastartpl/warehouse znajduje si? fragment projektu,
+który s?u?y do przechowywania informacji o urz?dzeniach elektronicznych w magazynie.
+ 
+Skopiuj klas? Warehouse do swojego projektu i wyeliminuj w nim wszystkie b??dy.
+Wykorzystaj w projekcie s?owo kluczowe this.
+ 
+Po uruchomieniu programu w konsoli powinien pojawi? si? wydruk jak poni?ej.
+
+
+$ java Warehouse
+Kod: QE65Q7FAM, producent: Samsung, typ: TV, cena: 9499.99
+Kod: P9 Lite, producent: Huawei, typ: Smatyphone, cena: 0.0
+Kod: Playstation 4, producent: Sony, typ: Smatyphone, cena: 1899.99
+
