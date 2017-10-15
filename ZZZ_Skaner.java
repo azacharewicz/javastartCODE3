@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ZZZ_Skaner {
     public static void main(String[] args) {
 
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US);
 
         System.out.println("Podaj liczbę: ");
