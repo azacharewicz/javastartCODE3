@@ -6,6 +6,22 @@ public class Person {
     private int age;
     private String pesel;
 
+    public Person(String firstName, String lastName, int age, String pesel) throws IncorrectAgeException, NameUndefinedException {
+        if((firstName == null) || (firstName.length() < 2)) {
+            throw new NameUndefinedException();
+        }
+        if((lastName == null) || (lastName.length() < 2)) {
+            throw new NameUndefinedException();
+        }
+        if(age < 1) {
+            throw new IncorrectAgeException();
+        }
+
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.pesel = pesel;
+    }
 
     public String getFirstName() {
         return firstName;
