@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcb11783-f885-441f-8b06-982947aa961a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zajecia11_cwiczenia/src/cwiczenie_1_zbiorLiczb/LiczbyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zajecia11_cwiczenia/src/cwiczenie_2_zbiorStringow/NapisyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zajecia11_cwiczenia/src/cwiczenie_3_TreeSet/ImionaTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zajecia11_cwiczenia/src/cwiczenie_4_kolejka/Kolejka.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zajecia11_cwiczenia/src/cwiczenie_4_kolejka/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zajecia11_cwiczenia/src/cwiczenie_5_HashMap/Customer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zajecia11_cwiczenia/src/cwiczenie_5_HashMap/HashMapTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/zajecia09_zadanieDomowe/zadanie_2/InputMismatchException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/zadanie_1a/IncorrectAgeException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/zadanie_1a/NameUndefinedException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/zadanie_1a/PersonTest1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/zadanie_2/InputMismatchException.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WczytywanieDoPliku.txt" afterPath="$PROJECT_DIR$/../zajecia11_cwiczenia/cwiczenie_2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/zajecia09_zadanieDomowe/zadanie_1a/Person.class" afterPath="$PROJECT_DIR$/out/production/zajecia09_zadanieDomowe/zadanie_1a/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/zajecia09_zadanieDomowe/zadanie_1a/PersonTest1.class" afterPath="$PROJECT_DIR$/out/production/zajecia09_zadanieDomowe/zadanie_1a/PersonTest1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/zajecia09_zadanieDomowe/zadanie_1b/Person.class" afterPath="$PROJECT_DIR$/out/production/zajecia09_zadanieDomowe/zadanie_1b/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/zajecia09_zadanieDomowe/zadanie_1b/PersonTest2.class" afterPath="$PROJECT_DIR$/out/production/zajecia09_zadanieDomowe/zadanie_1b/PersonTest2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/zajecia09_zadanieDomowe/zadanie_2/WczytywanieDoPliku.class" afterPath="$PROJECT_DIR$/out/production/zajecia09_zadanieDomowe/zadanie_2/WczytywanieDoPliku.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zadanie_1a/Person.java" afterPath="$PROJECT_DIR$/src/zadanie_1a/Person.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zadanie_1b/IncorrectAgeException.java" afterPath="$PROJECT_DIR$/src/zadanie_1b/IncorrectAgeException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zadanie_1b/NameUndefinedException.java" afterPath="$PROJECT_DIR$/src/zadanie_1b/NameUndefinedException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zadanie_1b/Person.java" afterPath="$PROJECT_DIR$/src/zadanie_1b/Person.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zadanie_1b/PersonTest2.java" afterPath="$PROJECT_DIR$/src/zadanie_1b/PersonTest2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zadanie_2/LicznikMniejszyOdJeden.java" afterPath="$PROJECT_DIR$/src/zadanie_2/LicznikMniejszyOdJeden.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zadanie_2/WczytywanieDoPliku.java" afterPath="$PROJECT_DIR$/src/zadanie_2/WczytywanieDoPliku.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zajecia09_zadanieDomowe_zadanie_3.txt" afterPath="$PROJECT_DIR$/zajecia09_zadanieDomowe_zadanie_3.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zadanie_2/WczytywanieDoPliku.java" afterPath="$PROJECT_DIR$/src/zadanie_2/ZapisDoPliku.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +13,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="ZapisDoPliku.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/zadanie_2/ZapisDoPliku.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,6 +71,7 @@
         <option value="$PROJECT_DIR$/WczytywanieDoPliku.txt" />
         <option value="$PROJECT_DIR$/src/zadanie_2/WczytywanieDoPliku.java" />
         <option value="$PROJECT_DIR$/ZapisDoPliku.txt" />
+        <option value="$PROJECT_DIR$/src/zadanie_2/ZapisDoPliku.java" />
       </list>
     </option>
   </component>
@@ -117,10 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,6 +127,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WczytywanieDoPliku">
+  <component name="RunManager" selected="Application.ZapisDoPliku">
     <configuration name="BufferedWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -238,14 +226,14 @@
       <module name="zajecia09_zadanieDomowe" />
       <envs />
     </configuration>
-    <configuration name="WczytywanieDoPliku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ZapisDoPliku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="zadanie_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="zadanie_2.WczytywanieDoPliku" />
+      <option name="MAIN_CLASS_NAME" value="zadanie_2.ZapisDoPliku" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -343,11 +331,11 @@
       <item index="1" class="java.lang.String" itemvalue="Application.PersonTest2" />
       <item index="2" class="java.lang.String" itemvalue="Application.Serializacja" />
       <item index="3" class="java.lang.String" itemvalue="Application.BufferedWriter" />
-      <item index="4" class="java.lang.String" itemvalue="Application.WczytywanieDoPliku" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ZapisDoPliku" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.WczytywanieDoPliku" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ZapisDoPliku" />
         <item index="1" class="java.lang.String" itemvalue="Application.PersonTest2" />
         <item index="2" class="java.lang.String" itemvalue="Application.PersonTest1" />
         <item index="3" class="java.lang.String" itemvalue="Application.BufferedWriter" />
@@ -372,42 +360,44 @@
       <workItem from="1507787853594" duration="2519000" />
       <workItem from="1508165939222" duration="492000" />
       <workItem from="1508184225930" duration="6273000" />
+      <workItem from="1508191283940" duration="321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32242000" />
+    <option name="totallyTimeSpent" value="32563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44026187" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44026187" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2246596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22768533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3371522" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3371522" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -497,7 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -506,7 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,32 +505,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie_2/InputMismatchException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie_2/WczytywanieDoPliku.java">
+    <entry file="file://$PROJECT_DIR$/src/zadanie_2/InputMismatchException.java" />
+    <entry file="file://$PROJECT_DIR$/src/zadanie_2/ZapisDoPliku.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WczytywanieDoPliku.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/WczytywanieDoPliku.txt" />
     <entry file="file://$PROJECT_DIR$/src/zadanie_1a/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,7 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="52" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -573,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -585,7 +558,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zadanie_2/Tablica.java" />
-    <entry file="file://$PROJECT_DIR$/src/zadanie_2/WczytywanieDoPliku.java">
+    <entry file="file://$PROJECT_DIR$/src/zadanie_2/ZapisDoPliku.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
@@ -624,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="17" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,39 +654,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="128" lean-forward="false" selection-start-line="8" selection-start-column="106" selection-end-line="8" selection-end-column="128" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie_2/InputMismatchException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie_2/InputMismatchException.java" />
     <entry file="file://$PROJECT_DIR$/src/zadanie_2/LicznikMniejszyOdJeden.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WczytywanieDoPliku.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/WczytywanieDoPliku.txt" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="113" column="13" lean-forward="false" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,17 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie_2/WczytywanieDoPliku.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,7 +698,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie_2/ZapisDoPliku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

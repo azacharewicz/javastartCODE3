@@ -7,13 +7,18 @@ import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class WczytywanieDoPliku {
-    public static void main(String[] args) throws LicznikMniejszyOdJeden, InputMismatchException, IOException {
+public class ZapisDoPliku {
+    public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US);
 
-        FileWriter fileWriter = new FileWriter("ZapisDoPliku.txt", false); //dopisywanie BufferedWriter
+        FileWriter fileWriter = null; //dopisywanie BufferedWriter
+        try {
+            fileWriter = new FileWriter("ZapisDoPliku.txt", false);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         BufferedWriter bfw = new BufferedWriter(fileWriter);
 
         boolean goodNumber = true;
@@ -55,11 +60,19 @@ public class WczytywanieDoPliku {
                 } catch (InputMismatchException e) {
                     System.out.println("Niepoprawny zapis. Użyj \"kropki\" jako separatora dziesiętnego.");
                     goodSeparator = false;
+                } catch (Exception e) {
+                    System.out.print("Błąd: " + e + "\n");
                 }
                 scanner.nextLine();
             } while (goodSeparator == false);
         }
-        fileWriter.close(); //ważne
+
+        try {
+            fileWriter.close(); //ważne
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         System.out.println("Wprowadzono i zapisano do pliku wszystkie liczby");
     }
 
