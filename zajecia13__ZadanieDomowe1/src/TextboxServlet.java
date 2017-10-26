@@ -6,7 +6,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
-
 import static jdk.nashorn.internal.objects.NativeArray.reverse;
 
 @WebServlet("/textbox")
@@ -24,7 +23,7 @@ public class TextboxServlet extends HttpServlet {
 
         //ilość wszystkich znaków w tekście
         int iloscWszystkichZnakowWTekscie =  usertext.length();
-        writer.print("Liczba znaków w tekście: " + iloscWszystkichZnakowWTekscie + "; ");
+        writer.print("Liczba znaków w tekście: " + iloscWszystkichZnakowWTekscie + "<br><br>");
 
         //dzielimy tekst na wyrazy
         String wyrazy[] = null;
@@ -34,20 +33,20 @@ public class TextboxServlet extends HttpServlet {
         int iloscZnakowBezSpacji = iloscWszystkichZnakowWTekscie - iloscWyrazow + 1;
 
         //ilość znaków bez spacji
-        writer.print(" Ilość znaków bez spacji: " + iloscZnakowBezSpacji + "; ");
+        writer.print(" Ilość znaków bez spacji: " + iloscZnakowBezSpacji + "<br><br>");
 
         //ilość wyrazów w tekście
-        writer.print(" Ilość wyrazów w tekście: " + iloscWyrazow + "; ");
+        writer.print(" Ilość wyrazów w tekście: " + iloscWyrazow + "<br><br>");
 
         //czy tekst jet palindromem (czytany wspak jest identyczny z oryginalnym)
         StringBuilder builder = new StringBuilder(usertext);
         String reversed = builder.reverse().toString();
-        writer.print(" Oryginalny tekst: " + usertext + ". ");
-        writer.print(" Odwrócony tekst: " + reversed + ". ");
+        writer.print(" Oryginalny tekst: " + usertext + "<br>");
+        writer.print(" Odwrócony tekst: " + reversed + "<br>");
         if(usertext.equals(reversed)){
-            writer.print(" Zapisany tekst JEST PALINDROMEM; ");
+            writer.print(" Zapisany tekst JEST PALINDROMEM<br>");
         } else {
-            writer.print(" Zapisany tekst NIE JEST PALINDROMEM; ");
+            writer.print(" Zapisany tekst NIE JEST PALINDROMEM<br>");
         }
 
     }

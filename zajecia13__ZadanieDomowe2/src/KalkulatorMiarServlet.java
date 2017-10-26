@@ -28,14 +28,14 @@ public class KalkulatorMiarServlet extends HttpServlet {
 
         //konwersja długości
         KonwerterMetrow konwerterMetrow = new KonwerterMetrow();
-        writer.print(dlugosc + " m = "
+        writer.print("<b>" + dlugosc + " m </b> = "
                 + konwerterMetrow.dlugoscWCentymetrach(dlugosc) + " cm = "
-                + konwerterMetrow.dlugoscWMilimetrach(dlugosc) + " mm; ");
+                + konwerterMetrow.dlugoscWMilimetrach(dlugosc) + " mm <br>");
 
         //konwersja wagi
         KonwerterKilogramow konwerterKilogramow = new KonwerterKilogramow();
-        writer.print(waga + " kg = "
+        writer.print("<b>" + waga + " kg </b> = "
                 + konwerterKilogramow.wagaWGramach(waga) + " g = "
-                + konwerterKilogramow.wagaWMiligramach(waga) + " mg; ");
+                + konwerterKilogramow.wagaWMiligramach(waga) + " mg");
     }
 }
