@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcb11783-f885-441f-8b06-982947aa961a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zadanie_2/NieprawidlowyLicznik.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notify/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notify/notifications.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notify/src/pl/notify/app/NotificationApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notify/src/pl/notify/app/NotificationFacade.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notify/src/pl/notify/logger/ConsoleLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notify/src/pl/notify/logger/FileLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notify/src/pl/notify/logger/NotifyLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notify/src/pl/notify/model/Notification.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notify/src/pl/notify/reader/FileNotificationReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notify/src/pl/notify/sender/EmailNotificationSender.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notifymaven/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notifymaven/notifications.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notifymaven/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notifymaven/src/main/java/pl/notify/app/NotificationApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notifymaven/src/main/java/pl/notify/app/NotificationFacade.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notifymaven/src/main/java/pl/notify/logger/ConsoleLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notifymaven/src/main/java/pl/notify/logger/FileLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notifymaven/src/main/java/pl/notify/logger/NotifyLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notifymaven/src/main/java/pl/notify/model/Notification.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notifymaven/src/main/java/pl/notify/reader/FileNotificationReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notifymaven/src/main/java/pl/notify/sender/EmailNotificationSender.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../notifymaven/src/main/resources/bananas-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/zajecia09_zadanieDomowe/zadanie_2/LicznikMniejszyOdJeden.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/zajecia09_zadanieDomowe/zadanie_2/WczytywanieDoPliku.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/zadanie_2/LicznikMniejszyOdJeden.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZapisDoPliku.txt" afterPath="$PROJECT_DIR$/ZapisDoPliku.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zadanie_2/ZapisDoPliku.java" afterPath="$PROJECT_DIR$/src/zadanie_2/ZapisDoPliku.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +45,21 @@
       <file leaf-file-name="ZapisDoPliku.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zadanie_2/ZapisDoPliku.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="1173">
+              <caret line="69" column="33" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NieprawidlowyLicznik.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zadanie_2/NieprawidlowyLicznik.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,7 +98,6 @@
         <option value="$PROJECT_DIR$/src/brudnopis/BufferedWriter.java" />
         <option value="$PROJECT_DIR$/src/zadanie_2/LicznikJestUjemny.java" />
         <option value="$PROJECT_DIR$/src/zadanie_2/Tablica.java" />
-        <option value="$PROJECT_DIR$/src/zadanie_2/LicznikMniejszyOdJeden.java" />
         <option value="$PROJECT_DIR$/src/zadanie_2/NiepoprawnyTypDanych.java" />
         <option value="$PROJECT_DIR$/src/zadanie_2/InputMismatchException.java" />
         <option value="$PROJECT_DIR$/src/zadanie_2/InputMismatchException2.java" />
@@ -71,6 +108,7 @@
         <option value="$PROJECT_DIR$/WczytywanieDoPliku.txt" />
         <option value="$PROJECT_DIR$/src/zadanie_2/WczytywanieDoPliku.java" />
         <option value="$PROJECT_DIR$/ZapisDoPliku.txt" />
+        <option value="$PROJECT_DIR$/src/zadanie_2/LicznikMniejszyOdJeden.java" />
         <option value="$PROJECT_DIR$/src/zadanie_2/ZapisDoPliku.java" />
       </list>
     </option>
@@ -106,9 +144,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,17 +160,27 @@
               <item name="zajecia09_zadanieDomowe" type="b2602c69:ProjectViewProjectNode" />
               <item name="zajecia09_zadanieDomowe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zadanie_1a" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zajecia09_zadanieDomowe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zajecia09_zadanieDomowe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zadanie_2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -362,42 +407,43 @@
       <workItem from="1508184225930" duration="6273000" />
       <workItem from="1508191283940" duration="495000" />
       <workItem from="1508349823513" duration="640000" />
+      <workItem from="1509396979366" duration="4277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33377000" />
+    <option name="totallyTimeSpent" value="37654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31751227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44026187" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23146747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23524962" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3371522" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3371522" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -498,7 +544,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie_2/LicznikMniejszyOdJeden.java">
+    <entry file="file://$PROJECT_DIR$/src/zadanie_2/NieprawidlowyLicznik.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -550,7 +596,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie_2/LicznikMniejszyOdJeden.java">
+    <entry file="file://$PROJECT_DIR$/src/zadanie_2/NieprawidlowyLicznik.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" lean-forward="true" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
@@ -593,20 +639,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zadanie_2/Tablica.java" />
-    <entry file="file://$PROJECT_DIR$/src/zadanie_1a/NameUndefinedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie_1a/IncorrectAgeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zadanie_1b/IncorrectAgeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -618,13 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zadanie_1a/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -658,13 +683,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zadanie_2/InputMismatchException.java" />
-    <entry file="file://$PROJECT_DIR$/src/zadanie_2/LicznikMniejszyOdJeden.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WczytywanieDoPliku.txt" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -701,10 +719,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie_1a/IncorrectAgeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie_1a/NameUndefinedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie_1a/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie_2/NieprawidlowyLicznik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/zadanie_2/ZapisDoPliku.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="1173">
+          <caret line="69" column="33" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

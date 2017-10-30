@@ -35,17 +35,15 @@ public class ZapisDoPliku {
                 licznik = scanner.nextInt();
                 tablica = new double[ustawLicznik(licznik)];
                 goodNumber = true;
-            } catch (LicznikMniejszyOdJeden e) {
-                System.out.print("Podaj liczbę całkowitą dodatnią.\n");
+            } catch (NieprawidlowyLicznik e) {
+                System.out.print("Za mały licznik. Podaj liczbę dodatnią. ");
             } catch (InputMismatchException e) {
-                System.out.print("Zły typ!\n");
+                System.out.print("Niepoprawny format licznika. ");
             } catch (Exception e) {
-                System.out.print("Błąd: " + e + "\n");
-            } catch (Error e) {
-                System.out.print("Błąd: " + e + "\n");
+                System.out.print("Błąd: " + e + " ");
             }
             scanner.nextLine();
-        } while (goodNumber == false);
+        } while (!goodNumber);
 
 
         for (i = 0; i < tablica.length; i++)
@@ -64,7 +62,7 @@ public class ZapisDoPliku {
                     System.out.print("Błąd: " + e + "\n");
                 }
                 scanner.nextLine();
-            } while (goodSeparator == false);
+            } while (!goodSeparator);
         }
 
         try {
@@ -76,13 +74,12 @@ public class ZapisDoPliku {
         System.out.println("Wprowadzono i zapisano do pliku wszystkie liczby");
     }
 
-    public static int ustawLicznik(int licznik) throws LicznikMniejszyOdJeden, InputMismatchException {
+    private static int ustawLicznik(int licznik) throws NieprawidlowyLicznik {
         if (licznik < 1) {
-            throw new LicznikMniejszyOdJeden();
+            throw new NieprawidlowyLicznik();
         } else
             return licznik;
     }
-
 }
 
 
