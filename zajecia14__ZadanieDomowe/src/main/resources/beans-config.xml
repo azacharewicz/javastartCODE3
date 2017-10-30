@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="consoleLogger" class="pl.notify.logger.ConsoleLogger"/>
+    <bean id="fileLogger" class="pl.notify.logger.FileLogger"/>
+    <bean id="fileReader" class="pl.notify.reader.FileNotificationReader"/>
+    <bean id="consoleReader" class="pl.notify.reader.ConsoleReader"/>
+    <bean id="emailSender" class="pl.notify.sender.EMAILNotificationSender"/>
+    <bean id="smsSender" class="pl.notify.sender.SMSNotificationSender"/>
+    <bean id="facade" class="pl.notify.app.NotificationFacade">
+        <constructor-arg ref="consoleReader"/>
+        <constructor-arg ref="smsSender"/>
+        <constructor-arg ref="consoleLogger"/>
+    </bean>
+</beans>

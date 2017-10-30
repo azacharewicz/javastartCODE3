@@ -1,0 +1,1 @@
+LOGI: 1509376677488 Notification{username='hjhjkh', email='2@hjhj.pl', telephone='88776655', content='lkjs;thjlkhl;fh'}
