@@ -10,5 +10,6 @@ public class WeatherApp {
 
         fileTransfer.odczytajMiastaZPliku();
         fileTransfer.pobierzWyswietlZapiszInformacjePogodowe();
+
     }
 }
