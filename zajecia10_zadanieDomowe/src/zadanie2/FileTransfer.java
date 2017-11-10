@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class FileTransfer {
+    WeatherApi api = new WeatherApi();
     List<String> listaMiast = new ArrayList<>();
     List<WeatherInfo> informacjePogodowe = new ArrayList<>();
     WeatherInfo weatherInfo = new WeatherInfo();
@@ -29,16 +30,12 @@ public class FileTransfer {
     public void pobierzWyswietlZapiszInformacjePogodowe() throws IOException {
         FileWriter fileWriter = new FileWriter("pogoda.csv", false); //dopisywanie BufferedWriter
         BufferedWriter bfw = new BufferedWriter(fileWriter);
-        WeatherApi api = new WeatherApi();
+        //WeatherApi api = new WeatherApi();
         System.out.println("\nINFORMACJE POGODOWE:");
         for (String city : listaMiast) {
             try {
-                int temperature = api.getTemperature(city);
-                String description = api.getDescription(city);
-                WeatherInfo weatherInfo = new WeatherInfo(city, description, temperature);
-                informacjePogodowe.add(weatherInfo);
+                pobierzInformacjePogodowe(api, city);
                 wyswietlInformacjePogodowe(weatherInfo);
-                //zapis do pliku pogoda.csv
                 //zapiszDoPlikuInformacjePogodowe(weatherInfo);
                 zapiszDoPlikuInformacjePogodowe(informacjePogodowe);
             } catch (IOException e) {
@@ -50,7 +47,14 @@ public class FileTransfer {
     }
 
 
-    public void wyswietlInformacjePogodowe( WeatherInfo weatherInfo) {
+    public void pobierzInformacjePogodowe(WeatherApi api, String city) throws IOException {
+        int temperature = api.getTemperature(city);
+        String description = api.getDescription(city);
+        weatherInfo = new WeatherInfo(city, description, temperature);
+        informacjePogodowe.add(weatherInfo);
+    }
+
+    public void wyswietlInformacjePogodowe(WeatherInfo weatherInfo) {
         System.out.println(
                 "Pogoda w mieście " + weatherInfo.getCity() + ": " + weatherInfo.getDescription() + ". "
                         + "Aktualna temperatura " + weatherInfo.getTemperature() + " stopni");
@@ -93,7 +97,6 @@ public class FileTransfer {
 //        fileWriter.close(); //ważne
 //        System.out.println("\nZAPISANO DO PLIKU " + "pogoda.csv");
 //    }
-
 
 
 }
