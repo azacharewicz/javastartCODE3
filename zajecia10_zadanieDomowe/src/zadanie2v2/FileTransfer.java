@@ -46,7 +46,6 @@ public class FileTransfer {
 
             }
         }
-
         fileWriter.close(); //wazne
         System.out.println("\nZAPISANO DO PLIKU " + "pogoda.csv");
     }
