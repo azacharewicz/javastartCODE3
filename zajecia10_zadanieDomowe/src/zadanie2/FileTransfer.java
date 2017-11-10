@@ -37,7 +37,7 @@ public class FileTransfer {
                 String description = api.getDescription(city);
                 WeatherInfo weatherInfo = new WeatherInfo(city, description, temperature);
                 informacjePogodowe.add(weatherInfo);
-                wyswietlInformacjePogodowe(weatherInfo);               //wyświetl informacje pogodowe w konsoli
+                wyswietlInformacjePogodowe(weatherInfo);               
                 zapiszInformacjePogodowe(weatherInfo);                 //zapis do pliku pogoda.csv
             } catch (IOException e) {
                 System.err.println("Nie udało się pobrać informacji dla miasta " + city);
