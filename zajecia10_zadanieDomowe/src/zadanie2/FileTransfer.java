@@ -38,7 +38,9 @@ public class FileTransfer {
                 WeatherInfo weatherInfo = new WeatherInfo(city, description, temperature);
                 informacjePogodowe.add(weatherInfo);
                 wyswietlInformacjePogodowe(weatherInfo);
-                zapiszInformacjePogodowe(weatherInfo);                 //zapis do pliku pogoda.csv
+                //zapis do pliku pogoda.csv
+                //zapiszDoPlikuInformacjePogodowe(weatherInfo);
+                zapiszDoPlikuInformacjePogodowe(informacjePogodowe);
             } catch (IOException e) {
                 System.err.println("Nie udało się pobrać informacji dla miasta " + weatherInfo.getCity());
             }
@@ -55,9 +57,15 @@ public class FileTransfer {
     }
 
 
-    public void zapiszInformacjePogodowe(WeatherInfo weatherInfo) throws IOException {
+//    public void zapiszDoPlikuInformacjePogodowe(WeatherInfo weatherInfo) throws IOException {
+//        FileWriter fileWriter = new FileWriter("pogoda.csv", false); //dopisywanie BufferedWriter
+//        fileWriter.write(weatherInfo.getCity() + ";" + weatherInfo.getTemperature() + ";" + weatherInfo.getDescription() + "\n");
+//    }
+
+
+    public void zapiszDoPlikuInformacjePogodowe(List<WeatherInfo> informacjePogodowe) throws IOException {
         FileWriter fileWriter = new FileWriter("pogoda.csv", false); //dopisywanie BufferedWriter
-        fileWriter.write(weatherInfo.getCity() + ";" + weatherInfo.getTemperature() + ";" + weatherInfo.getDescription() + "\n");
+        fileWriter.write(informacjePogodowe.toString() + "\n");
     }
 
 
