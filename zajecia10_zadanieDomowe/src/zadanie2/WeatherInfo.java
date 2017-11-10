@@ -5,7 +5,7 @@ public class WeatherInfo {
     private String description;
     private int temperature;
 
-    public WeatherInfo(String city, String description, int temperature) {
+    protected WeatherInfo(String city, String description, int temperature) {
         this.city = city;
         this.description = description;
         this.temperature = temperature;
