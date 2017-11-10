@@ -31,7 +31,6 @@ public class FileTransfer {
         FileWriter fileWriter = new FileWriter("pogoda.csv", false); //dopisywanie BufferedWriter
         BufferedWriter bfw = new BufferedWriter(fileWriter);
         WeatherApi api = new WeatherApi();
-
         System.out.println("\nINFORMACJE POGODOWE:");
         for (String city : listaMiast) {
             try {
@@ -51,8 +50,6 @@ public class FileTransfer {
         fileWriter.close(); //ważne
         System.out.println("\nZAPISANO DO PLIKU " + "pogoda.csv");
     }
-
-
 
 //
 //    public void pobierzWyswietlZapiszInformacjePogodowe() throws IOException {
@@ -100,9 +97,6 @@ public class FileTransfer {
 //        FileWriter fileWriter = new FileWriter("pogoda.csv", false); //dopisywanie BufferedWriter
 //        fileWriter.write(informacjePogodowe.toString() + "\n");
 //    }
-
-
-
 
 
 }

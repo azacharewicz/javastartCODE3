@@ -1,8 +1,6 @@
-package zadanie2;
+package zadanie2v2;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class WeatherApp {
     public static void main(String[] args) throws IOException {
