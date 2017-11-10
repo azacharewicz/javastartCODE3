@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class FileTransfer {
     List<String> listaMiast = new ArrayList<>();
+    List<WeatherInfo> informacjePogodowe= new ArrayList<>();
 
 
 
