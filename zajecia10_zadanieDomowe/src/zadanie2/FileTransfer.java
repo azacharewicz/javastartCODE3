@@ -2,14 +2,12 @@ package zadanie2;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
 public class FileTransfer {
     List<String> listaMiast = new ArrayList<>();
     List<WeatherInfo> informacjePogodowe= new ArrayList<>();
-
 
 
     public void pobierzWyswietlZapiszInformacjePogodowe() throws IOException {
@@ -52,54 +50,5 @@ public class FileTransfer {
         }
     }
 
-    public void wczytajMiastaDoPliku() throws LicznikMniejszyOdPiec, InputMismatchException, IOException {
-        Scanner scanner = new Scanner(System.in);
-        //scanner.useLocale(Locale.US);
-        FileWriter fileWriter = new FileWriter("cities.txt", true); //dopisywanie BufferedWriter
-        BufferedWriter bfw = new BufferedWriter(fileWriter);
-        boolean goodNumber = true;
-        boolean goodValue = true;
-        int licznik = 0;
-        String[] tablica = new String[licznik];
-        int i = 0;
-        do {
-            System.out.println("Ile miast chcesz wprowadzić do pliku? Podaj liczbę większą niż 4.");
-            try {
-                licznik = scanner.nextInt();
-                tablica = new String[ustawLicznik(licznik)];
-                goodNumber = true;
-            } catch (LicznikMniejszyOdPiec e) {
-                System.out.print("Podaj liczbę większą niż 4. ");
-                goodNumber = false;
-            } catch (InputMismatchException e) {
-                System.out.print("Podaj liczbę całkowitą większą niż 4. ");
-                goodNumber = false;
-            }
-            scanner.nextLine();
-        } while (goodNumber == false);
-        for (i = 0; i < tablica.length; i++) {
-            do {
-                System.out.println("Wprowadź nazwę " + (i + 1) + ". miasta. Odpowiedni format tekstu to np.: \"wrocław\"");
-                try {
-                    tablica[i] = scanner.nextLine();
-                    fileWriter.write((tablica[i]) + "\n");
-                    goodValue = true;
-                } catch (InputMismatchException e) {
-                    System.out.println("Niepoprawny zapis. Odpowiedni format tekstu to np.: \"wrocław\"");
-                    goodValue = false;
-                }
-            } while (goodValue == false);
-        }
-        fileWriter.close(); //ważne
-        System.out.println("ZAPISANO DO PLIKU LISTĘ " + i + " MIAST.");
-    }
 
-
-    public static int ustawLicznik(double licznik) throws LicznikMniejszyOdPiec, InputMismatchException {
-        if (licznik < 5) {
-            throw new LicznikMniejszyOdPiec();
-        } else if (((licznik * 10) % 10) != 0) {
-            throw new InputMismatchException();
-        } else return (int) licznik;
-    }
 }
