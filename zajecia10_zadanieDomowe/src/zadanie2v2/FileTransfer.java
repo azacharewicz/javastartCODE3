@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class FileTransfer {
     List<String> listaMiast = new ArrayList<>();
 
-    public void odczytajMiastaZPliku() throws FileNotFoundException { //
+    public void odczytajMiastaZPliku() throws FileNotFoundException {
         System.out.println("\nODCZYTANO Z PLIKU: ");
         File file = new File("cities.txt");
         Scanner scanner = null;
@@ -37,12 +37,12 @@ public class FileTransfer {
         for (WeatherInfo weatherInfo : weatherInfoList) {
             try {
                 System.out.println(
-                        "Pogoda w mie�cie " + weatherInfo.getCity() + ": " + weatherInfo.getDescription() + ". "
+                        "Pogoda w mieście " + weatherInfo.getCity() + ": " + weatherInfo.getDescription() + ". "
                                 + "Aktualna temperatura " + weatherInfo.getTemperature() + " stopni");
                 //zapis do pliku pogoda.csv
                 fileWriter.write(weatherInfo.getCity() + ";" + weatherInfo.getTemperature() + ";" + weatherInfo.getDescription() + "\n");
             } catch(IOException e) {
-                System.err.println("Nie uda�o si� pobra� informacji dla miasta " + weatherInfo.getCity());
+                System.err.println("Nie udało się pobrać informacji dla miasta " + weatherInfo.getCity());
 
             }
         }
