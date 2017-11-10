@@ -10,6 +10,18 @@ public class WeatherInfo {
         this.description = description;
         this.temperature = temperature;
     }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public int getTemperature() {
+        return temperature;
+    }
 }
 
 
