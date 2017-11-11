@@ -9,11 +9,11 @@ public class Kolejka {
         int suma = 0;
         System.out.println();
         Queue<Integer> liczby = new LinkedList<>();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 3; i++) {
             int liczbaLosowa = random.nextInt(10);
             liczby.offer(liczbaLosowa);
             //suma = suma + liczbaLosowa;      //tak było źle
-            suma = suma + liczby.poll();       //a tak będzie dobrze? teraz dodałam ta linijkę, pobrałam element z kolejki
+            suma = suma + liczby.poll();       //a tak będzie dobrze? teraz dodałam ta linijkę
             if (i < (10 - 1)) {
                 System.out.print(liczbaLosowa + "+");
             } else {
