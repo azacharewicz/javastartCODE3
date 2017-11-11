@@ -2,6 +2,7 @@ package zadanie2_poprawka;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Scanner;
 
 public class QueueGame {
 
@@ -14,7 +15,7 @@ public class QueueGame {
 
     private static Queue<Integer> downloadNumbersFromUser() {
         Queue<Integer> numbers = new LinkedList<>();
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < NUMBERS_COUNT; i++) {
             System.out.println("Podaj liczbę całkowitą ");
             int number = scanner.nextInt();
