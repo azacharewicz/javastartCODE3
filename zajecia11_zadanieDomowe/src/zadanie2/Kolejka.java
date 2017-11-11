@@ -12,7 +12,8 @@ public class Kolejka {
         for (int i = 0; i < 10; i++) {
             int liczbaLosowa = random.nextInt(10);
             liczby.offer(liczbaLosowa);
-            suma = suma + liczbaLosowa;
+            //suma = suma + liczbaLosowa;      //tak było źle
+            suma = suma + liczby.poll();       //a tak będzie dobrze? teraz dodałam ta linijkę, pobrałam element z kolejki
             if (i < (10 - 1)) {
                 System.out.print(liczbaLosowa + "+");
             } else {

@@ -26,7 +26,7 @@ public class LiczbyTest {
         int i = 0;
         int j = 0;
         int k = 0;
-        for (i = 0; i < 50; i++) {
+        for (i = 0; i < 500; i++) {
             do {
                 liczbaLosowa = random.nextInt(1001); //Losowanie liczby od 0 do 1000.
                 j = j+1;
