@@ -1,8 +1,6 @@
 package zadanie2_poprawka;
 
-import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.Locale;
 import java.util.Queue;
 
 public class QueueGame {
