@@ -27,16 +27,22 @@ public class FilteringMachine {
 
     public List<Book> convertToBooks(List<String> titles) {
         List<Book> bookList = new ArrayList<>();
-        for (Book book : bookList) {
-            bookList.add(book);
+        for (String title : titles) {
+            bookList.add(new Book(title));
         }
         return bookList;
     }
 
-//    // Metoda powinna przekształcić tytuły na książki i zwrócić tylko te które rozpoczynają się od słowa "Gra"
-//    public List<Book> convertToBooksAndReturnOnlyStartingWithGra(List<String> titles) {
-//        return null;
-//    }
+    // Metoda powinna przekształcić tytuły na książki i zwrócić tylko te które rozpoczynają się od słowa "Gra"
+    public List<Book> convertToBooksAndReturnOnlyStartingWithGra(List<String> titles) {
+        List<Book> bookList = new ArrayList<>();
+        for (String title : titles) {
+            if (title.substring(0, 2) == "Gra") {
+                bookList.add(new Book(title));
+            }
+        }
+        return bookList;
+    }
 }
 
 

@@ -83,24 +83,24 @@ public class FilteringMachineTest {
         assertThat(books, hasItem(new Book("Gra o życie")));
     }
 
-//    @Test
-//    public void shouldConvertTitlesToBooksAndFilterOutStartingWithGra() {
-//        // given
-//        List<String> titles = new ArrayList<>();
-//        titles.add("Gra o tron");
-//        titles.add("Dzieci z Bullerbyn");
-//        titles.add("Robinson Cruzoe");
-//        titles.add("Cyfrowa twierdza");
-//        titles.add("Gra o życie");
-//
-//        // when
-//        List<Book> books = machine.convertToBooksAndReturnOnlyStartingWithGra(titles);
-//
-//        // then
-//        assertThat(books.size(), is(2));
-//        assertThat(books, hasItem(new Book("Gra o tron")));
-//        assertThat(books, hasItem(new Book("Gra o życie")));
-//    }
+    @Test
+    public void shouldConvertTitlesToBooksAndFilterOutStartingWithGra() {
+        // given
+        List<String> titles = new ArrayList<>();
+        titles.add("Gra o tron");
+        titles.add("Dzieci z Bullerbyn");
+        titles.add("Robinson Cruzoe");
+        titles.add("Cyfrowa twierdza");
+        titles.add("Gra o życie");
+
+        // when
+        List<Book> books = machine.convertToBooksAndReturnOnlyStartingWithGra(titles);
+
+        // then
+        assertThat(books.size(), is(2));
+        assertThat(books, hasItem(new Book("Gra o tron")));
+        assertThat(books, hasItem(new Book("Gra o życie")));
+    }
 
 
 }

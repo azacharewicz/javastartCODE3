@@ -1,5 +1,6 @@
 package pl.javastart.exercise.streams;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class FilteringMachineTwo {
@@ -8,6 +9,7 @@ public class FilteringMachineTwo {
     public List<String> findKidNames(List<Person> ppl) {
         return null;
     }
+
 
     public List<User> convertPeopleToUsers(List<Person> people) {
         return null;
